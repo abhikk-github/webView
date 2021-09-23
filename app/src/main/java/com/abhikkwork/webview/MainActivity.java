@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String url = "https://www.google.com/";
+//        String url = "https://www.google.com/";
+        String url = "https://docs.google.com/gview?embedded=true&url=http://sfmcentre.com/uploads/notes/note40782.pdf";
 
         webView = findViewById(R.id.webView);
         webView.setWebViewClient(new WebViewClient());
